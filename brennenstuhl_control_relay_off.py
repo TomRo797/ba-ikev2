@@ -55,18 +55,4 @@ if __name__ == "__main__":
 
     if get_relay_state() == True:
         switch_state()
-
-    # Error handling
-    if len(sys.argv) != 3: exit("uasge: file.py 'ACHELOS TEST SESSION NAME' 'TEST CASE'")
-
-    # Create path var where pcap & log files are stored
-    TEST_SESSION = str(sys.argv[1])
-    TEST_CASE = str(sys.argv[2])
-    PATH = "C:/Users/Laptop/Desktop/Achelos/IKEIPsecInspector1.7.0/workspace/logs/" + TEST_SESSION
-    
-    if TEST_CASE == "CT2-01":
-        pcap_file_name = "IKEv2_ConnectivityTesting_2-01_TC_e9e0953b-0b3c-4b68-a5ec-1ec2dd3d2fbb_" # UNIX timestamp missing
-
-        latest_file = find_latest_file(PATH)
-        if latest_file:
-            print(f"Packet capture file: {latest_file}")
+        
