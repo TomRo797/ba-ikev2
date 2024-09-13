@@ -1,1 +1,1 @@
-python.exe "C:\Users\Laptop\Desktop\Achelos\Scripts\brennenstuhl_control_relay_off.py" Test1 CT2-01
+python.exe "C:\Users\Laptop\Desktop\Achelos\Scripts\brennenstuhl_control_relay_off.py"
